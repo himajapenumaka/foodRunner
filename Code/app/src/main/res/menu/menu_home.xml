@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_sort"
+        android:title="Sort By"
+        app:showAsAction="always">
+
+        <menu>
+
+            <item
+                android:id="@+id/sort_az"
+                android:title="Alphabetical(A-Z)" />
+
+            <item
+                android:id="@+id/sort_za"
+                android:title="Alphabetical(Z-A)" />
+
+            <item
+                android:id="@+id/sort_hl"
+                android:title="Cost(High-Low)" />
+
+            <item
+                android:id="@+id/sort_lh"
+                android:title="Cost(Low-High)" />
+
+            <item
+                android:id="@+id/sort_rating"
+                android:title="Rating" />
+
+        </menu>
+
+    </item>
+
+</menu>

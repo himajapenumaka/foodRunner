@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LoginActivity"
+    android:background="#f44336">
+
+    <include
+        android:id="@+id/toolbarLogin"
+        layout="@layout/toolbar"/>
+
+    <ImageView
+        android:layout_below="@+id/toolbarLogin"
+        android:id="@+id/imgFoodLogin"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/food"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/etIdLogin"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/imgFoodLogin"
+        android:background="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/mobile_number_10_digits"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/phone"
+        android:drawablePadding="6dp"/>
+
+    <EditText
+        android:id="@+id/etPwLogin"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/etIdLogin"
+        android:background="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="6dp"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="6dp"/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_below="@id/etPwLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:background="#b71c1c"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtForgotPwLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+    <TextView
+        android:id="@+id/txtRegisterLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/don_t_have_an_account_sign_up_now"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+</RelativeLayout>
+

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:background="#ffffff"
+    app:cardCornerRadius="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutHome"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:weightSum="6">
+
+
+            <ImageView
+                android:id="@+id/imgRestaurantHome"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.8"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="8dp"
+                android:layout_centerInParent="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_food_image" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.1">
+
+            <TextView
+                android:id="@+id/ResNameHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:padding="8dp"
+                android:text="Name of the Restaurant"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/txtFoodPriceHome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="15dp"
+                android:padding="8dp"
+                android:text="Rs. 299/person"
+                android:textColor="#357a38"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.1">
+
+            <Button
+                android:id="@+id/BtnfavHome"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:padding="4dp"
+                android:background="@drawable/ic_fav_off"/>
+
+            <TextView
+                android:id="@+id/txtFoodRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="15dp"
+                android:drawableLeft="@drawable/ic_rating"
+                android:drawablePadding="4dp"
+                android:padding="4dp"
+                android:layout_centerHorizontal="true"
+                android:text="4.5"
+                android:textColor="#ffca28"
+                android:textSize="15sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

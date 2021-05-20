@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="mobile_number_10_digits">Mobile Number(10 digits)</string>
+    <string name="don_t_have_an_account_sign_up_now">Don\'t have an account? Sign Up now</string>
+    <string name="preferences_file">Food Network File</string>
+    <string name="name_min_3_characters">Name(Min. 3 characters)</string>
+    <string name="email_address">Email Address</string>
+    <string name="mobile_number_10_digits2">Mobile Number (10 digits)</string>
+    <string name="delivery_address">Delivery Address</string>
+    <string name="password_min_4_characters">Password (Min. 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="faq_answer_two">Create your FoodRunner Account, Login into the account, search for the hotel you wish to review, and then “write the review” into the box named same. You can also give the ratings to the hotel over there. And then select Publish Review. Peace !</string>
+    <string name="faq_answer_one">For delivery agents, the bone of contention is a revision in the way FoodRunner calculates payment for deliveries based on distance. For orders up to 5.5 kilometres, the company would pay a flat rate of Rs 30 and an additional Rs 10 for every km beyond that.</string>
+    <string name="faq_answer_three">FoodRunner has introduced “on time or free delivery” — meaning, if a consumer opts to pay an additional Rs 10 on select restaurants, he/she is guaranteed free order if it is not delivered within the promised time.</string>
+    <string name="faq_answer_four">To begin with, through its food delivery business,Food Runner charges a commission to the restaurants on the basis of orders. While users pay a delivery fee,FoodRunner earns through restaurants who pay a commission for each delivery, which is then split among the delivery partner and the company.</string>
+    <string name="faq_answer_five">Very late to the game,  FoodRunner started their online food delivery service. Different from other players like Swiggy, FoodRunner does not have their own delivery system, they let users place the order through the website or the app and the restaurant fulfil that order through by their own.</string>
+    <string name="faq_answer_six">It\'s Himaja Penumaka.</string>
+    <string name="otp_instruction">(The OTP email would be sent only once in 24 hours. Hence, if you need to reset the password multiple times within 24 hours kindly use the same OTP)</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="proceed_to_cart">Proceed to Cart</string>
+    <string name="confirm_order">Confirm Order</string>
+    <string name="go_to_cart">Proceed to cart</string>
+    <string name="order_placed">Your order has been successfully placed!</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="order_history_static_text">Your previous orders are listed below:</string>
+    <string name="no_orders">You haven\'t placed any orders yet.</string>
+    <string name="dummy_date">dd/mm/yyyy</string>
+</resources>

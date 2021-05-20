@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.OtpActivity"
+    android:background="@color/colorPrimary">
+
+    <include
+        android:id="@+id/toolbarOtp"
+        layout="@layout/toolbar"/>
+
+    <TextView
+        android:id="@+id/txtInstructionOtp"
+        android:layout_below="@id/toolbarOtp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the received OTP below"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/etOtpOtp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_below="@id/txtInstructionOtp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="OTP(4 characters)"
+        android:textSize="23sp"
+        android:inputType="number"
+        android:maxLines="1"
+        android:maxLength="4"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/etpwOtp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_below="@id/etOtpOtp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="New Password(Min. 6 characters)"
+        android:textSize="23sp"
+        android:inputType="textPassword"
+        android:padding="6dp"/>
+
+    <EditText
+        android:id="@+id/etconfirmPwOtp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#fff"
+        android:layout_below="@id/etpwOtp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Confirm Password"
+        android:textSize="23sp"
+        android:inputType="textPassword"
+        android:padding="6dp"/>
+
+    <Button
+        android:id="@+id/btnSubmitOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/etconfirmPwOtp"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="25sp"
+        android:padding="6dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/otp_instruction"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:textStyle="italic"
+        android:padding="6dp"/>
+
+</RelativeLayout>
